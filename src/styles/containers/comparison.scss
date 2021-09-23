@@ -1,0 +1,54 @@
+.comparison-page {
+	padding: 50px 150px;
+}
+.comparison {
+	&__grid {
+		display: flex;
+		gap: 20px;
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 20px;no
+	}
+	&__actions {
+    	padding: 10px 0;
+    	width: 100%;
+		display: flex;
+		justify-content: space-around;
+    	border-top: 1px solid $grey-color-3;
+    	border-bottom: 1px solid $grey-color-3;
+	}
+}
+.comparison-item {
+	&__img {
+    	align-self: center;
+		height: 220px;
+		width: 150px;
+
+		img {
+			object-fit: cover;
+			object-position: center;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__title {
+	}
+}
+.title-lv-3 {
+}
+.rating {
+}
+.price {
+}
+.description {
+}
+.btn {
+}
+.btn_green {
+}
+.btn_small {
+}

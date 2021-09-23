@@ -1,0 +1,58 @@
+.subscribe-clients {
+	display: flex;
+	height: 301px;
+}
+.subscribe {
+	flex: 0 0 50%;
+	position: relative;
+
+	img {
+		position: absolute;
+		object-position: center;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+	}
+
+	&__content{
+		position: absolute;
+		background: $purple-color-3;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+
+	&__title {
+    	text-transform: capitalize;
+    	color: #FFF;
+
+	}
+	&__description {
+		color: #FFF;
+		padding: 0 200px;
+	}
+	&__form {
+		display: flex;
+	}
+	&__input {
+		margin-right: 10px;
+	}
+	&__button {
+	}
+}
+.clients {
+	flex: 0 0 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: $grey-color-1;
+
+	&__log {
+	}
+}

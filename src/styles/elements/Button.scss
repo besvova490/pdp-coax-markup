@@ -1,0 +1,17 @@
+.btn {
+	height: 40px;
+	width: 200px;
+	color: #FFF;
+	font-weight: 500;
+	font-size: 14px;
+	border: 1px solid $grey-color-3;
+
+	&_green {
+		background: $main-color-green;
+	}
+
+	&_small {
+		height: 40px;
+		width: 40px;
+	}
+}

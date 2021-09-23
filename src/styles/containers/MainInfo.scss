@@ -1,0 +1,21 @@
+.main-info {
+	display: flex;
+	background: $grey-color-1;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+	&__item {
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	flex: 1 0 201px;
+    	height: 201px;
+	}
+	&__icon {
+		margin-bottom: 30px;
+	}
+}
+.main-info-description {
+	margin-top: 10px;
+}
